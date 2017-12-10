@@ -1,0 +1,16 @@
+### ***Project 2 Feedback***
+
+***Nico Van de Bovenkamp***
+
+***
+
+**Overall:**
+
+
+**Some Notes**
+
+
+**Something to think about**  
+Dropping missing values can be necessary at times. In cases where you you have a lot of missing values, you might have to just drop those rows *or* ignore that feature all together (forget that column, we can't use it). However, as we proceed, you will find that data is gold to these algorithms. Very often, the more data you have, the more information you are giving to your model so it can generalize even better. To ensure we retain as much data as we can, a common practice is to fill missing values with the mean or median or mode so that you can keep those instances, without disturbing your distribution too much. Check out these guides:
+https://machinelearningmastery.com/handle-missing-data-python/
+https://chrisalbon.com/python/pandas_missing_data.html
